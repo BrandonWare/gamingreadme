@@ -67,7 +67,7 @@ Start the Backend Server: Once the database is set up, start the backend server 
 npm start
 This will start the backend API server at http://localhost:5000 (or another specified port).
 
-# create tables in pgadmin
+# Create tables in pgadmin
 
 Right-click on the "Tables" section under your database (gamingdb) in the left sidebar.
 
@@ -85,9 +85,7 @@ Click Save to create the table.
 
 Repeat the process for the games table.
 
-
-7.)
-API Documentation
+# API Documentation
 GET /users
 Description: Fetches a list of all users in the system.
 
@@ -134,9 +132,7 @@ Response Example:
 
 { "id": 3, "gamename": "New Game" }
 
-8.)
-
-Database Setup
+# Database Setup
 
 PostgreSQL Setup:
 
@@ -152,24 +148,33 @@ DATABASE_URL=postgres://username:password@localhost:5432/gamingdb
 
 Replace username, password, and gamingdb with your actual PostgreSQL credentials and database name.
 
-Set Up the Database Schema: Use Sequelize to create the necessary database tables. After you’ve set the models in the models/ directory, run the following command to create the tables:
+# Create Table in PgAdmin 4
 
-npx sequelize-cli db:migrate
-This will create the tables based on the models you’ve defined (e.g., User, Game).
+Right-click on the "Tables" section under your database (gamingdb) in the left sidebar.
 
-Start the Backend Server: Once the database is set up, start the backend server by running:
+Choose Create -> Table from the context menu.
 
+In the dialog box that appears, give your table a name (e.g., users).
+
+Click on the Columns tab to start adding columns.
+
+Add id as a SERIAL column and set it as the Primary Key.
+
+Add gamename as a VARCHAR(100) column and check the NOT NULL option.
+
+Click Save to create the table.
+
+Repeat the process for the games table.
+
+# Start the Backend Server: Once the database is set up, start the backend server by running:
 
 npm start
 
 This will start the backend API server at http://localhost:8008 (or another specified port).
 
-9.)
-
-Deployment Guide
+# Deployment Guide
 
 Initialize a Git Repository: If you haven’t already initialized a Git repository in the project, run the following commands:
-
 
 git init
 Add Your Remote GitHub Repository: Create a new repository on GitHub (e.g., https://github.com/BrandonWare/gamingapp.git
