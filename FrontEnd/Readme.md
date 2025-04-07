@@ -89,9 +89,9 @@ Open a Pull Request and describe the changes you’ve made.
 
 Follow JavaScript ES6+ syntax.
 
-Use functional components with hooks 
+Use functional components with hooks.
 
-Ensure proper indentation and code formatting 
+Ensure proper indentation and code formatting. 
 
 Write meaningful commit messages.
 
