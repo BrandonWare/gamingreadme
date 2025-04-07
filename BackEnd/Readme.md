@@ -1,13 +1,9 @@
-##BackEnd ReadME for Gaming
+# BackEnd ReadME for Gaming
 
-1.)
-
-Overview
+# Overview
 This is the backend API for the gaming web application. It is built using Node.js and Express.js, serving dynamic content and  game data management, and more. The backend connects to a PostgreSQL database and exposes various API endpoints for the frontend to interact with. The goal of the backend is to manage the application’s data and provide the necessary functionality for the frontend.
 
-2.)
-
-Technologies Used:
+# Technologies Used:
 
 Node.js
 
@@ -15,7 +11,7 @@ Express
 
 PostgreSQL 
 
-Table of Contents
+# Table of Contents
 
 Project Title & Overview
 
