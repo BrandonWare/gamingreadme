@@ -213,3 +213,31 @@ Response Example:
 
 # Deployment Guide
 
+Initialize a Git Repository:
+If you haven’t already initialized a Git repository in the project, run the following commands:
+
+git init
+
+Add Your Remote GitHub Repository:
+Create a new repository on GitHub (e.g., https://github.com/BrandonWare/gamingapp.git) and add it as the remote:
+
+git remote add origin git@github.com:BrandonWare/gamingapp.git
+
+Commit Your Code:
+Add all the files to the staging area and commit them:
+
+git add .
+git commit -m "Initial commit"
+
+Push Code to GitHub:
+Push the code to GitHub:
+
+git push  origin 
+
+This will upload the project to the GitHub repository you created.
+
+
+
+
+
+
