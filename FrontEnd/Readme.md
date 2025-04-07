@@ -56,7 +56,7 @@ Once the application is running locally, users can git clone into this repositor
 once they deploy this repository on their system they can open index.html. They can also edit and view the frontend api from this link 
 https://gamingapiwebsite-brandonware.netlify.app
 
-and from there they can
+and from there they can:
 
 - Navigate through various pages using the navigation bar.
 
