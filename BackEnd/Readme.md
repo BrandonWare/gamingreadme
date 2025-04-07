@@ -19,29 +19,25 @@ This is the backend API for the gaming web application. It is built using Node.j
 
 - API Documentation
 
-Database Setup
+- Database Setup
 
-Authentication & Security
+- Authentication & Security
 
-Deployment Guide
+- Deployment Guide
 
-License & Contribution Guidelines
+- License & Contribution Guidelines
 
-3.)
-
-Installation & Setup
+# Installation & Setup
 
 Required Dependencies:
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-PostgreSQL
+- PostgreSQL
 
-4.)
-
-Steps to Install Dependencies and Run Locally:
+# Steps to Install Dependencies and Run Locally:
 
 Clone the repository: git@github.com:BrandonWare/gamingapp.git
 
@@ -49,9 +45,7 @@ Navigate into the project folder:
 
 cd gamingapp
 
-5.)
-
-Install the required dependencies:
+# Install the required dependencies:
 
 Database Setup
 PostgreSQL Setup:
@@ -73,7 +67,7 @@ Start the Backend Server: Once the database is set up, start the backend server 
 npm start
 This will start the backend API server at http://localhost:5000 (or another specified port).
 
-6.) create tables in pgadmin
+# create tables in pgadmin
 
 Right-click on the "Tables" section under your database (gamingdb) in the left sidebar.
 
