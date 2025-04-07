@@ -1,15 +1,14 @@
-# BackEnd ReadME for Gaming
+#Backend README for Gaming Web Application
 
 # Overview
-This is the backend API for the gaming web application. It is built using Node.js and Express.js, serving dynamic content and  game data management, and more. The backend connects to a PostgreSQL database and exposes various API endpoints for the frontend to interact with. The goal of the backend is to manage the application’s data and provide the necessary functionality for the frontend.
+This is the backend API for the gaming web application. It is built using Node.js and Express.js, providing dynamic content, game data management, and other functionalities. The backend interacts with a PostgreSQL database and exposes various API endpoints for the frontend to interact with. The goal of the backend is to manage the application’s data and provide the necessary functionality for the frontend.
 
-# Technologies Used:
-
+# Technlogies Used
 - Node.js
 
-- Express
+- Express.js
 
-- PostgreSQL 
+- PostgreSQL
 
 # Table of Contents
 
@@ -28,7 +27,6 @@ This is the backend API for the gaming web application. It is built using Node.j
 - License & Contribution Guidelines
 
 # Installation & Setup
-
 Required Dependencies:
 
 - Node.js
@@ -41,131 +39,114 @@ Required Dependencies:
 
 Clone the repository: git@github.com:BrandonWare/gamingapp.git
 
-Navigate into the project folder:
+# Navigate into the project folder:
 
 cd gamingapp
 
 # Install the required dependencies:
 
-Database Setup
+npm install
+
+# Database Setup
 PostgreSQL Setup:
-Install PostgreSQL: If you don’t have PostgreSQL installed, you can follow the installation guide here:[ PostgreSQL Installation Guide.](https://www.postgresql.org/download/)
+Install PostgreSQL:
+If you don’t have PostgreSQL installed, you can follow the installation guide here: PostgreSQL Installation Guide.
 
-Create a Database: After installing PostgreSQL, create a new database for the project:
-
+# Create a Database:
+After installing PostgreSQL, create a new database for the project:
 
 createdb gamingdb
-Configure the Database: The database connection is configured in the .env file with the following variable:
 
+# Configure the Database:
+The database connection is configured in the .env file with the following variable:
 
 DATABASE_URL=postgres://username:password@localhost:5432/gamingdb
+
 Replace username, password, and gamingdb with your actual PostgreSQL credentials and database name.
 
+# Steps to Set Up Tables in pgAdmin 4 UI
+Open pgAdmin 4:
 
-Start the Backend Server: Once the database is set up, start the backend server by running:
+Launch pgAdmin 4 on your computer.
 
-npm start
-This will start the backend API server at http://localhost:5000 (or another specified port).
+Connect to your PostgreSQL server by entering your credentials (username and password).
 
-# Create tables in pgadmin
+Select the Database:
 
-Right-click on the "Tables" section under your database (gamingdb) in the left sidebar.
+In the left sidebar, expand the server where your PostgreSQL is running.
 
-Choose Create -> Table from the context menu.
+Under the Databases section, find and click on your database (gamingdb). If you haven't created it yet, right-click on "Databases" and select Create -> Database to create a new one. You can name it gamingdb (or any name of your choice).
 
-In the dialog box that appears, give your table a name (e.g., users).
+Navigate to the "Tables" Section:
 
-Click on the Columns tab to start adding columns.
+After selecting your database, expand the Schemas section, then the public schema.
 
-Add id as a SERIAL column and set it as the Primary Key.
+Under public, find the Tables section. Right-click on Tables and select Create -> Table.
 
-Add gamename as a VARCHAR(100) column and check the NOT NULL option.
+Create the users Table:
 
-Click Save to create the table.
+Table Name: In the "General" tab, enter the name for your first table: users.
 
-Repeat the process for the games table.
+Define Columns:
 
-# API Documentation
-GET /users
-Description: Fetches a list of all users in the system.
+Click on the Columns tab.
 
-Response Example:
+Click the + button to add a new column.
 
-[
-  { "id": 1, "gamename": "John Doe" },
-  { "id": 2, "gamename": "Jane Smith" }
-]
-POST /users
-Description: Creates a new user.
+For each column, provide the following:
 
-Request Example:
+Column Name: id
 
-{
-  "gamename": "New User"
-}
-Response Example:
+Data Type: SERIAL
 
-json
-Copy
-{ "id": 3, "gamename": "New User" }
-GET /games
-Description: Fetches a list of all games.
+Check the Primary Key option to make this column the primary key.
 
-Response Example:
+Click Save to add the column.
 
+Now, add another column:
 
-[
-  { "id": 1, "gamename": "Game 1" },
-  { "id": 2, "gamename": "Game 2" }
-]
-POST /games
-Description: Adds a new game to the system.
+Column Name: gamename
 
-Request Example:
+Data Type: VARCHAR(100)
 
+Check the NOT NULL option to ensure the gamename field cannot be empty.
 
-{
-  "gamename": "New Game"
-}
-Response Example:
+After adding both columns, click Save to create the users table.
 
+Create the games Table:
 
-{ "id": 3, "gamename": "New Game" }
+Table Name: In the "General" tab, enter the name for your second table: games.
 
-# Start the Backend Server: Once the database is set up, start the backend server by running:
+Define Columns:
 
-npm start
+Click on the Columns tab.
 
-This will start the backend API server at http://localhost:8008 (or another specified port).
+Click the + button to add a new column.
 
-# Deployment Guide
+For each column, provide the following:
 
-Initialize a Git Repository: If you haven’t already initialized a Git repository in the project, run the following commands:
+Column Name: id
 
-git init
-Add Your Remote GitHub Repository: Create a new repository on GitHub (e.g., https://github.com/BrandonWare/gamingapp.git
+Data Type: SERIAL
 
-Add this repository as the remote:
+Check the Primary Key option to make this column the primary key.
 
+Click Save to add the column.
 
-git remote add origin git@github.com:BrandonWare/gamingapp.git
-Commit Your Code: Add all the files to the staging area and commit them:
+Now, add another column:
 
+Column Name: gamename
 
-git add .
-git commit -m "Initial commit"
+Data Type: VARCHAR(100)
 
-Push Code to GitHub:
+Check the NOT NULL option to ensure the gamename field cannot be empty.
 
-git push -u origin main
-This will upload the project to the GitHub repository you just created.
+After adding both columns, click Save to create the games table.
 
+Verify the Tables:
 
+After you’ve created the tables, you should see the users and games tables listed under the Tables section in the public schema.
 
-
-
-
-
-
+You can expand each table to see the columns and their details.
 
 
