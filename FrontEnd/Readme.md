@@ -57,7 +57,8 @@ https://gamingapiwebsite-brandonware.netlify.app
 
 and from there they can:
 
-![Image](images/1.png)  <!-- for images in the 'images' folder -->
+![Image](images/1.png)
+
 
 
 
