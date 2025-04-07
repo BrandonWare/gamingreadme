@@ -57,7 +57,7 @@ https://gamingapiwebsite-brandonware.netlify.app
 
 and from there they can:
 
-![Image](images/1.png)
+![Image](frontend/1.png)
 
 
 
