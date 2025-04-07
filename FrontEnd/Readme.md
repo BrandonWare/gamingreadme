@@ -57,7 +57,7 @@ https://gamingapiwebsite-brandonware.netlify.app
 
 and from there they can:
 
-<img src=images/1.png" width="500">
+![Image Description](images/1.png)
 
 - Navigate through various pages using the navigation bar.
 
