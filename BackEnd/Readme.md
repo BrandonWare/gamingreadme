@@ -1,4 +1,4 @@
-:imagesdir: images
+
 # Backend README for Gaming Web Application
 
 # Overview
