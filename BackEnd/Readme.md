@@ -236,7 +236,16 @@ git push  origin
 
 This will upload the project to the GitHub repository you created.
 
+# Coding Standards:
+Follow JavaScript ES6+ syntax.
 
+Use functional components with hooks.
+
+Ensure proper indentation and code formatting.
+
+Write meaningful commit messages.
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
