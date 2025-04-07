@@ -5,25 +5,25 @@
 Project Name:
 FrontEnd Web Application for Gaming
 
-Description:
+# Description:
 
 This is the frontend web application for gaming. It is built using express.js and connects to an API to fetch and display data. The purpose of the front end is to provide a interactive user interface that communicates with the backend to display dynamic content, manages user inputs, and ensures a smooth user experience. The main goal is to create a responsive and user friendly web interface.
 
-2.) Table of Contents
+# Table of Contents
 
-*Project Title & Overview
+- Project Title & Overview
 
-*Installation & Setup
+- Installation & Setup
 
-*Usage Instructions
+- Usage Instructions
 
-*API Integration
+- API Integration
 
-*Contributing Guidelines
+- Contributing Guidelines
 
-*License
+- License
 
-3.) Installation and Setup
+# Installation and Setup
 Prerequisites:
 
 Node.js (v14.0 or above)
@@ -32,7 +32,7 @@ Express.js
 
 npm (Node Package Manager)
 
-Steps to Install Dependencies and Run Locally:
+# Steps to Install Dependencies and Run Locally:
 
 Clone the repository: git@github.com:BrandonWare/gamingweb.git
 
@@ -40,7 +40,7 @@ Navigate into the project folder:
 
 cd gamingweb
 
-Install the required dependencies:
+# Install the required dependencies:
 
 npm install
 
