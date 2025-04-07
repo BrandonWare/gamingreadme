@@ -5,19 +5,19 @@ This is the backend API for the gaming web application. It is built using Node.j
 
 # Technologies Used:
 
-Node.js
+- Node.js
 
-Express
+- Express
 
-PostgreSQL 
+- PostgreSQL 
 
 # Table of Contents
 
-Project Title & Overview
+- Project Title & Overview
 
-Installation & Setup
+- Installation & Setup
 
-API Documentation
+- API Documentation
 
 Database Setup
 
