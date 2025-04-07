@@ -1,4 +1,4 @@
-FrontEnd ReadME for Gaming
+# FrontEnd ReadME for Gaming
 
 1.) Project Title and Overview
 
