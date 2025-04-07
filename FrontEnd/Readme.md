@@ -1,10 +1,5 @@
 # FrontEnd ReadME for Gaming
 
-Project Title and Overview
-
-Project Name:
-FrontEnd Web Application for Gaming
-
 # Description:
 
 This is the frontend web application for gaming. It is built using express.js and connects to an API to fetch and display data. The purpose of the front end is to provide a interactive user interface that communicates with the backend to display dynamic content, manages user inputs, and ensures a smooth user experience. The main goal is to create a responsive and user friendly web interface.
