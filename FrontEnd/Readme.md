@@ -1,3 +1,5 @@
+:imagesdir: images
+
 # FrontEnd ReadME for Gaming
 
 # Description:
@@ -54,6 +56,8 @@ once they deploy this repository on their system they can open index.html. They 
 https://gamingapiwebsite-brandonware.netlify.app
 
 and from there they can:
+
+image::1.png[alt=logo,width=250px][orientation=portrait]
 
 - Navigate through various pages using the navigation bar.
 
