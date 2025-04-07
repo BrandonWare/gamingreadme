@@ -132,40 +132,6 @@ Response Example:
 
 { "id": 3, "gamename": "New Game" }
 
-# Database Setup
-
-PostgreSQL Setup:
-
-Install PostgreSQL: If you don’t have PostgreSQL installed, you can follow the installation guide here: PostgreSQL Installation Guide.
-
-Create a Database: After installing PostgreSQL, create a new database for the project:
-
-createdb gamingdb
-Configure the Database: The database connection is configured in the .env file with the following variable:
-
-
-DATABASE_URL=postgres://username:password@localhost:5432/gamingdb
-
-Replace username, password, and gamingdb with your actual PostgreSQL credentials and database name.
-
-# Create Table in PgAdmin 4
-
-Right-click on the "Tables" section under your database (gamingdb) in the left sidebar.
-
-Choose Create -> Table from the context menu.
-
-In the dialog box that appears, give your table a name (e.g., users).
-
-Click on the Columns tab to start adding columns.
-
-Add id as a SERIAL column and set it as the Primary Key.
-
-Add gamename as a VARCHAR(100) column and check the NOT NULL option.
-
-Click Save to create the table.
-
-Repeat the process for the games table.
-
 # Start the Backend Server: Once the database is set up, start the backend server by running:
 
 npm start
