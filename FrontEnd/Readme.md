@@ -1,6 +1,6 @@
 # FrontEnd ReadME for Gaming
 
-1.) Project Title and Overview
+Project Title and Overview
 
 Project Name:
 FrontEnd Web Application for Gaming
@@ -50,7 +50,7 @@ npm start
 
 This should start the development server at http://localhost:9024 (or another specified port).
 
- 4.) Usage Instructions
+# Usage Instructions
 
 Once the application is running locally, users can git clone into this repository git@github.com:BrandonWare/gamingweb2.git
 once they deploy this repository on their system they can open index.html. They can also edit and view the frontend api from this link 
@@ -64,13 +64,13 @@ View and interact with dynamic content fetched from the backend API.
 
 Submit forms and interact with the system.
 
-5.) API Integration
+# API Integration
 
 The frontend interacts with the backend API by making HTTP requests to specified endpoints. The base URL for the API is:
 
 Base URL:https://api/v1/gaming/
 
-6.) Contributing Guidelines
+# Contributing Guidelines
 We welcome contributions from the community! Here's how you can contribute:
 
 Fork the repository to your GitHub account.
@@ -83,7 +83,7 @@ Push your branch to your fork (git push origin feature-branch).
 
 Open a Pull Request and describe the changes you’ve made.
 
-7.) Coding Standards:
+# Coding Standards:
 
 Follow JavaScript ES6+ syntax.
 
@@ -93,7 +93,7 @@ Ensure proper indentation and code formatting
 
 Write meaningful commit messages.
 
-8.) This project is licensed under the MIT License - see the LICENSE file for details.
+# This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
