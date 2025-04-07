@@ -149,4 +149,67 @@ After you’ve created the tables, you should see the users and games tables lis
 
 You can expand each table to see the columns and their details.
 
+# Start the Backend Server
+
+Once the database is set up and the tables are created, start the backend server by running:
+
+npm start
+
+This will start the backend API server at http://localhost:5000 (or another specified port).
+
+# API Documentation
+
+Endpoints:
+
+GET /users
+
+Description: Fetches a list of all users in the system.
+
+Response Example:
+
+[
+  { "id": 1, "gamename": "John Doe" },
+  { "id": 2, "gamename": "Jane Smith" }
+]
+
+POST /users
+
+Description: Creates a new user.
+
+Request Example:
+
+{
+  "gamename": "New User"
+}
+
+Response Example
+
+{ "id": 3, "gamename": "New User" }
+
+GET /games
+
+Description: Fetches a list of all games.
+
+Response Example:
+
+[
+  { "id": 1, "gamename": "Game 1" },
+  { "id": 2, "gamename": "Game 2" }
+]
+
+POST /games
+
+Description: Adds a new game to the system.
+
+Request Example:
+
+{
+  "gamename": "New Game"
+}
+
+Response Example:
+
+{ "id": 3, "gamename": "New Game" }
+
+# Deployment Guide
 
