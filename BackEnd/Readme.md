@@ -161,9 +161,9 @@ This will start the backend API server at http://localhost:5000 (or another spec
 
 Endpoints:
 
-GET /users
+GET /gaming
 
-Description: Fetches a list of all users in the system.
+Description: Fetches a list of all games in the system.
 
 Response Example:
 
@@ -172,7 +172,7 @@ Response Example:
   { "id": 2, "gamename": "Jane Smith" }
 ]
 
-POST /users
+POST /gaming
 
 Description: Creates a new user.
 
@@ -197,7 +197,7 @@ Response Example:
   { "id": 2, "gamename": "Game 2" }
 ]
 
-POST /games
+POST /gaming
 
 Description: Adds a new game to the system.
 
