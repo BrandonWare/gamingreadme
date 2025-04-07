@@ -174,17 +174,17 @@ Response Example:
 
 POST /gaming
 
-Description: Creates a new user.
+Description: Creates a new game.
 
 Request Example:
 
 {
-  "gamename": "New User"
+  "gamename": "New Game"
 }
 
 Response Example
 
-{ "id": 3, "gamename": "New User" }
+{ "id": 3, "gamename": "New Game" }
 
 GET /gaming
 
