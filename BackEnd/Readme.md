@@ -186,7 +186,7 @@ Response Example
 
 { "id": 3, "gamename": "New User" }
 
-GET /games
+GET /gaming
 
 Description: Fetches a list of all games.
 
