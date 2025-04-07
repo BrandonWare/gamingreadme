@@ -51,13 +51,12 @@ This should start the development server at http://localhost:9024 (or another sp
 
  4.) Usage Instructions
 
-Once the application is running locally, users can:
+Once the application is running locally, users can git clone into this repository git@github.com:BrandonWare/gamingweb2.git
+once they deploy this repository on their system they can open index.html and from there they can
 
 Navigate through various pages using the navigation bar.
 
 View and interact with dynamic content fetched from the backend API.
-
-Log in or sign up (if authentication is implemented).
 
 Submit forms and interact with the system.
 
