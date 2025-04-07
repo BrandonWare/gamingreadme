@@ -95,7 +95,7 @@ Ensure proper indentation and code formatting.
 
 Write meaningful commit messages.
 
-#License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
