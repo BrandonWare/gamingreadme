@@ -58,11 +58,11 @@ https://gamingapiwebsite-brandonware.netlify.app
 
 and from there they can
 
-Navigate through various pages using the navigation bar.
+- Navigate through various pages using the navigation bar.
 
-View and interact with dynamic content fetched from the backend API.
+- View and interact with dynamic content fetched from the backend API.
 
-Submit forms and interact with the system.
+- Submit forms and interact with the system.
 
 # API Integration
 
